@@ -47,7 +47,7 @@ switch ($control) {
          "subtotal": 145000,
          "total": 145000,
          "fo_usuario": 1
-        }';*/           
+        }';*/          
         $params = json_decode($json);
         $texto_arreglo=serialize($params->productos);
         $params->productos=$texto_arreglo;
